@@ -13,6 +13,6 @@ This project is a simple web-based currency converter application. It allows use
 - **HTML**: For structuring the webpage.
 - **CSS**: For styling the webpage.
 - **JavaScript**: For handling user input, currency conversions, and fetching live exchange rates from an API.
-- **API**: "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json" to fetch real-time exchange rates.
+- **API**: API used to fetch real-time exchange rates.
 
 
