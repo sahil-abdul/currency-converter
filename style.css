@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #c58af9;;
+}
+.box{
+    height: 445px;
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.logo{
+    background-image: url(logo.jpg);
+    width: 48%;
+    height: 31%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inner{
+    height: 69%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.inner h1{
+    color: #c58af9;
+    margin-bottom:20px ;
+}
+.inner .inp{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    width: 100%;
+    height:60px ;
+}
+.inner .inp input{
+    width: 100%;
+    background-color:transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.inner .inp input:focus{
+    outline: none;
+}
+.exg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.exg select{
+    width: 42%;
+    height: 40px;
+    background-color: #c58af9;
+    /* padding: 10px; */
+    color: white;
+    border: 2px solid black;
+    font-size: larger;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+}
+.btn button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: #c58af9;
+    color: white;
+    border-radius: 20px;
+    font-size: larger;
+}
+.result{
+    height: 19%;
+    width: 92%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+    background-color: #c58af9;
+}
